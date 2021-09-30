@@ -12,6 +12,11 @@
 
     <footer>
       @yield('footer')
+    <p>&copy; Copyright {{date("Y")}} &middot;
+    @if (!route::('about'))
+      <a href="{{ route('about')}}">About Us</a></p>
+    @endif
+
     </footer>
 </body>
 
