@@ -1,22 +1,8 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+@extends('base')
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+@section('content')
+  <p>Build with &hearts; by Dévellopeur backend junior lemon learning</p>
 
-    <title>About us</title>
-</head>
+  <p><a href="/">Revenir à la page d'accueil</a></p>
+@endsection
 
-<body>
-
-    <p>Build with &hearts; by Dévellopeur backend junior lemon learning</p>
-
-    <p><a href="/">Revenir à la page d'accueil</a></p>
-
-    <footer>
-        <p>&copy; Copyright {{date("Y")}} &middot; <a href="/about-us"></a></p>
-    </footer>
-</body>
-
-</html>
