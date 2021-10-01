@@ -1,4 +1,4 @@
-@extends('base')
+@extends('base', ['title' => 'about'])
 
 @section('title','about')
 
